@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <h1 class="heading">To Do List App</h1>
+      <div class="detials">
+        <div class="adding">
+          <input
+            type="text"
+            id="addToList"
+            placeholder="Add the Task here..."
+          />
+          <button id="plus">&plus;</button>
+        </div>
+        <div class="showing">
+          <ul class="todolist">
+            <!-- deatials are added in JS -->
+          </ul>
+        </div>
+        <div class="clearAll">
+          <span id="pending"
+            >You have <span id="num">0</span> pending tasks</span
+          >
+          <button id="clear">Clear All</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

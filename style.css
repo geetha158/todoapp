@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #00ffff;
+}
+
+.card {
+  width: 500px;
+  height: 500px;
+  background-color: beige;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+/* .card:hover {
+  animation: remove 0.8s ease forwards;
+  border-top: 5px solid red;
+} */
+
+.heading {
+  color: brown;
+  text-align: center;
+  padding: 5px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.adding {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input {
+  background-color: #00ffff;
+  border-radius: 5px;
+  padding: 5px;
+  width: 70%;
+}
+.showing {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+ul {
+  list-style-type: none;
+  align-items: center;
+}
+
+li {
+  border: 1px solid #041818;
+  border-radius: 15px;
+  width: 300px;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.task {
+  background-color: aqua;
+}
+
+.btn-task {
+  position: absolute;
+  right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#plus {
+  width: 9%;
+  background-color: lawngreen;
+  cursor: pointer;
+}
+.clearAll {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  bottom: 30px;
+  right: 125px;
+  align-items: center;
+}
+
+#pending {
+  font-weight: 500;
+  font-size: 12px;
+  width: 120px;
+}
+#clear {
+  padding: 10px;
+  background-color: darkcyan;
+  cursor: pointer;
+}
